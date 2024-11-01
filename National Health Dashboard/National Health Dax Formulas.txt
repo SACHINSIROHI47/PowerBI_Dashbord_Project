@@ -1,0 +1,21 @@
+1) C_RelationOfHead = SWITCH(NationalHealthSurvey[Relation of Head],1,"Self",2,"Spouse of Head",3,"Married Child",4,"Spouse of Married Child",5,"Unmarried child",6,"grandchild",7,"father/mother/father-in-law/mother-in-law",8,"brother/sister/brother-in-law/siter-in-law/other relatives",9,"servant/employees/other non-relatives")
+
+2) C_MaritalStatus = SWITCH(NationalHealthSurvey[Marital Status],1,"never married",2,"currently marrid",3,"widowed",4,"divorced/seprated")
+
+3)  C_GeneralEducationCode = SWITCH(NationalHealthSurvey[General Education Code],1,"Not literate",2,"literate without any schooling",3,"literate without formal schooling: though NFEC",4,"TLC/AEC",5,"others",6,"literate with format schooling: below primary",7,"primary",8,"upper primary/middle",10,"secondry",11,"higher secondary",12,"diploma/certificate course(up to secondary)",13,"diploma/certificate course (higher secondary)",14,"diploma/certificate course (graduation & above)",15,"graduate",16,"postgraduate and above" )
+
+4) C_HeathScheme = SWITCH(NationalHealthSurvey[Health Scheme],1,"RSBY/Arogyasri/CGHS,ESIS",2,"Other than govt",3,"arrangee by household with insurance companies",4,"others",5,"not covered")
+
+5) C_Gender = SWITCH(NationalHealthSurvey[Gender],1,"Male",2,"Female") 
+
+6) C_Hostel_Student = SWITCH(NationalHealthSurvey[Hostel Students],1,"Yes",2,"No") 
+
+7) C_Hospitalise = SWITCH(NationalHealthSurvey[Hospitalise],1,"Yes",2,"No")
+
+8) C_Cronic Dieses ailment = SWITCH(NationalHealthSurvey[Cronic Dieses],1,"Yes",2,"No") 
+
+9) C_Cronic Before 15 days = SWITCH(NationalHealthSurvey[Cornic Last 15 Days],1,"Yes",2,"No") 
+
+10) C_Cronic Before Survey = SWITCH(NationalHealthSurvey[Cronic Before Survey Day],1,"Yes",2,"No")
+
+11) C_ReportingTime = SWITCH(NationalHealthSurvey[Report Time],1,"Self",2,"Proxy")
